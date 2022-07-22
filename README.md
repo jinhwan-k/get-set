@@ -37,3 +37,46 @@ System.out.println(course.getTutor());
 System.out.println(course.getDays());
 
 
+
+
+연습문제
+
+1) Tutor 클래스를 만들고, 이름(name)과, 경력(bio) 멤버 변수를 추가하세요.
+2) 그리고 각 변수를 private 으로 선언하고, Getter와 Setter 를 만들어보세요.
+3) 마지막으로, 기본 생성자와, name/bio 입력받는 생성자 두 개를 만들어보세요.
+
+public class Tutor {                            
+    // 멤버 변수
+    private String name;
+    private String bio;
+    
+    // 기본생성자
+    public Tutor() {
+        
+    }
+    
+    // 생성자
+    public Tutor(String name, String bio) {
+        this.name = name;
+        this.bio = bio;
+    }
+    
+    // Getter
+    public String getName() {
+        return this.name;
+    }
+    public String getBio() {
+        return this.bio;
+    }
+    
+    // Setter    
+    public void setName(String name) {
+        this.name = name;
+    }
+    public void setBio(String bio) {
+        this.bio = bio;
+    }
+    
+}
+
+자주봐봐야겠다.
